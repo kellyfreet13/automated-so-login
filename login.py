@@ -2,7 +2,11 @@ import time
 from selenium import webdriver
 import credentials as cred
 
-browser = webdriver.Chrome(cred.chrome_driver)
+if not cred.chrome_driver:
+	browser = webdriver.Chrome()
+else:
+	browser = webdriver.Chrome(cred.chrome_driver)
+
 browser.get(cred.login_url)
 time.sleep(4)  # give chrome some time to load
 
