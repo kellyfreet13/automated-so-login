@@ -18,15 +18,15 @@ Windows Directions
  -Search 'Task Scheduler' in the Windows Search  
  -In the 'Actions' panel, select 'Create Task...'  
 ------------------------- General Tab -------------------------    
-<img src="images/general.jpg" />  
+![ScreenShot](/images/general.png) 
   
 ------------------------- Triggers Tab -------------------------  
 -Select the 'Triggers' tab at the top, and select 'New...'  
-<img src="images/triggers.jpg">  
+![ScreenShot](/images/triggers.png) 
   
 ------------------------- Actions Tab -------------------------  
 -Select the 'Actions tab' and select 'New...'  
-<img src="images/actions.jpg">  
+![ScreenShot](/images/action.png) 
   
 -Select 'OK' to create the job!  
 
